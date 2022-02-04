@@ -26,7 +26,7 @@
     <!-- start of navbar -->
     <!-- navbar-light not included in tutorial (actually, it was; I missed it...); hamburger was not showing -->
     <!-- found solution here: https://stackoverflow.com/questions/65894909/bootstrap-5-0-hamburger-menu-icon-doesnt-show-up -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-light px-3">
+    <nav class="navbar navbar-expand-md bg-dark navbar-light px-3 fixed-top">
       <a href="#" class="navbar-brand"
         ><i class="fas fa-dog fa-2x text-info"></i
       ></a>
@@ -91,7 +91,80 @@
     </nav>
     <!-- end of navbar -->
 
-    <h1 class="text-dark px-3">woof, woof!</h1>
+    <!-- start of banner -->
+    <section>
+      <div class="container-fluid">
+        <div
+          class="row bg-info justify-content-center align-items-center"
+          style="height: 50vh"
+        >
+          <div class="col-sm-10 text-center">
+            <h1 class="display-2 text-capitalize">
+              <span class="text-warning">websites by</span>
+              <span class="text-white fw-bold">dogs</span>
+            </h1>
+            <h2 class="fw-light fst-italic text-light">
+              Developer dogs design and create websites for all your needs.
+            </h2>
+            <a href="#" class="btn btn-warning btn-lg px-4 m-3"
+              >Press here 🐾</a
+            >
+            <a href="#" class="btn btn-danger btn-lg px-4 m-3">Press here 🐾</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of banner -->
+
+    <!-- start of skills -->
+    <section class="bg-light p-5">
+      <div class="container-fluid">
+        <!-- start of title -->
+        <div class="row">
+          <div class="col text-center m-3">
+            <h1 class="text-warning display-2">Skills</h1>
+            <p class="lead text-secondary">
+              Our all star team of four legged coders have all the skills needed
+              to create a perfect website for you.
+            </p>
+          </div>
+        </div>
+        <!-- end of title -->
+        <div class="row text-center">
+          <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+            <i class="fas fa-desktop fa-6x text-warning mb-3"></i>
+            <h1 class="text-secondary">Development</h1>
+            <p class="text-muted my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              quam molestiae consequatur. Sunt obcaecati inventore dolor ducimus
+              quas? Dignissimos, eius. Quia hic rerum ducimus neque!
+            </p>
+            <a href="#" class="btn btn-outline-warning">Learn more</a>
+          </div>
+          <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+            <i class="far fa-edit fa-6x text-warning mb-3"></i>
+            <h1 class="text-secondary">Design</h1>
+            <p class="text-muted my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              quam molestiae consequatur. Sunt obcaecati inventore dolor ducimus
+              quas? Dignissimos, eius. Quia hic rerum ducimus neque!
+            </p>
+            <a href="#" class="btn btn-outline-warning">Learn more</a>
+          </div>
+          <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+            <i class="fas fa-cogs fa-6x text-warning mb-3"></i>
+            <h1 class="text-secondary">Creativity</h1>
+            <p class="text-muted my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              quam molestiae consequatur. Sunt obcaecati inventore dolor ducimus
+              quas? Dignissimos, eius. Quia hic rerum ducimus neque!
+            </p>
+            <a href="#" class="btn btn-outline-warning">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of skills -->
 
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
